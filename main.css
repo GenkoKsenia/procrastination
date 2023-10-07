@@ -1,0 +1,149 @@
+.reason{
+    border-style: solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 3%;
+    border-radius: 15px;
+    min-width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;  
+    background-color: #dbd9ff;
+}
+.reasonHeaders{
+    text-align: center;
+    font-weight: bold;
+}
+.exercises{
+    margin-top: 2%;
+    
+}
+header{
+    margin-top: 12%;
+    margin-bottom: 4%;
+    min-height: 100px;
+    background-color: #f5f185;;
+}
+.h{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Roboto',Tahoma;
+}
+li{
+    text-align: justify;
+    font-family: 'Roboto',Tahoma;
+}
+footer{
+    background-color:rgb(135, 179, 192);
+    min-height: 100px;
+    border-style: solid;
+    border-color: rgb(135, 179, 192);
+}
+.footerText{
+    text-align: center;
+    margin-top: 0em; 
+    margin-bottom: 0em;
+}
+.footerDiv{
+    margin-top: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    p{
+      font-size: 18px;
+    }
+    li{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .h{
+        font-size: 24px;
+    }
+    .reason{
+        min-width: 100%;
+    }
+    .reason p{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) {
+    p{
+      font-size: 22px;
+      color:#2e3339
+    }
+    li{
+        font-size: 21px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    .h{
+        font-size: 30px;
+    }
+    .reason p{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1280px) {
+     p{
+       font-size: 24px;
+    }
+    li{
+        font-size: 23px;
+    }
+    h1{
+        font-size: 54px;
+    }
+    .h{
+        font-size: 40px;
+    }
+    .reason p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1920px) {
+     p{
+        font-size: 26px;
+    }
+    li{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .h{
+        font-size: 40px;
+    }
+    .reason p{
+        font-size: 22px;
+    }
+}
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    width: 100%;
+}
+
+a:active{
+    color: #212529;
+}
+a:visited{
+    color: #212529;
+}
+a:hover {
+    color:#339900;
+    }
+.exercisesHeaders{
+    background-color: #91ddff;
+}
+.emphasis{
+    background-color: #bffaa8;
+}
